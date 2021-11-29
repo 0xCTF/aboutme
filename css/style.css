@@ -1,0 +1,109 @@
+body {
+    background-color: darkgray;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin-bottom: 50px;
+}
+
+section {
+    padding: 20px;
+}
+
+nav {
+    margin-top: 80px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-bottom: solid;
+    border-color: black;
+    border-width: 1px;
+    text-align: right;
+}
+
+nav span{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p:first-letter {
+    font-size: 1.5em;
+}
+
+#h1-name {
+    text-align: center;
+    color: slateblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 2em;
+}
+#p-movies::first-letter {
+    font-size: 1em;
+}
+#p-description {
+    color: teal;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 1.2em;
+}
+
+#p-movies {
+    font-style: italic;
+}
+
+
+
+.img-mood {
+    height: 200px;
+}
+
+ol {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#div-header {
+    background-image: url("../images/sunset.jpg");
+    height: 300px;
+}
+
+#div-profile {
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+
+
+#div-moods div {
+    display: inline-block;
+    margin-left: 40px;
+}
+#div-profile img {
+    border-radius: 50%;
+}
+
+
+
+#div-moods div span {
+    display: block;
+}
+
+#div-profile img {
+    width: 200px;
+    height: 200px;
+}
+footer {
+    background-color: grey;
+    padding: 20px;
+}
